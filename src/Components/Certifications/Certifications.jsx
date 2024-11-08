@@ -23,7 +23,7 @@ const Certifications = () => {
             rel="noreferrer"
             href="https://www.cert.devtown.in/verify/q2J15dDE"
           >
-            <button className="px-8 py-2 text-center bg-white text-black font-bold rounded-lg">
+            <button className="px-8 py-2 text-center bg-white text-black font-bold rounded-lg hover:scale-[1.15]">
               View
             </button>
           </a>
@@ -43,7 +43,7 @@ const Certifications = () => {
             rel="noreferrer"
             href="https://learn.pantechsolutions.net/courses/1156032/certificate"
           >
-            <button className="px-8 py-2 text-center bg-white text-black font-bold rounded-lg">
+            <button className="px-8 py-2 text-center bg-white text-black font-bold rounded-lg hover:scale-[1.15]">
               View
             </button>
           </a>
@@ -64,7 +64,7 @@ const Certifications = () => {
             rel="noreferrer"
             href="https://www.cloudskillsboost.google/public_profiles/27528d61-0eee-4cde-83cc-6d7f466a0266/badges/8843293"
           >
-            <button className="px-8 py-2 text-center bg-white text-black font-bold rounded-lg">
+            <button className="px-8 py-2 text-center bg-white text-black font-bold rounded-lg hover:scale-[1.15]">
               View
             </button>
           </a>

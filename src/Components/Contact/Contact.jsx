@@ -58,7 +58,7 @@ const Contact = () => {
         ></textarea>
 
         <button
-          className="px-4 py-3 font-semibold bg-black text-white rounded-lg"
+          className="px-4 py-3 font-semibold bg-black text-white rounded-lg hover:scale-[1.15]"
           type="submit"
         >
           Send Message

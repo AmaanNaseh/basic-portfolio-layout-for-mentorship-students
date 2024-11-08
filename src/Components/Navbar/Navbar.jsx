@@ -26,7 +26,9 @@ const Navbar = () => {
           offset={-25}
           duration={500}
         >
-          <h1 className="text-3xl font-bold italic">Amaan Naseh</h1>
+          <h1 className="text-3xl font-bold italic hover:scale-[1.05]">
+            Amaan Naseh
+          </h1>
         </Link>
       </div>
       <ul
@@ -37,7 +39,7 @@ const Navbar = () => {
         } `}
       >
         <Link
-          className="cursor-pointer"
+          className="cursor-pointer hover:scale-[1.05]"
           to="about"
           smooth={true}
           offset={-65}
@@ -46,7 +48,7 @@ const Navbar = () => {
           About
         </Link>
         <Link
-          className="cursor-pointer"
+          className="cursor-pointer hover:scale-[1.05]"
           to="skills"
           smooth={true}
           offset={-50}
@@ -55,7 +57,7 @@ const Navbar = () => {
           Skills
         </Link>
         <Link
-          className="cursor-pointer"
+          className="cursor-pointer hover:scale-[1.05]"
           to="projects"
           smooth={true}
           offset={-65}
@@ -64,19 +66,19 @@ const Navbar = () => {
           Projects
         </Link>
         <Link
-          className="cursor-pointer"
+          className="cursor-pointer hover:scale-[1.05]"
           to="certifications"
           smooth={true}
-          offset={-50}
+          offset={-65}
           duration={500}
         >
           Certifications
         </Link>
         <Link
-          className="cursor-pointer"
+          className="cursor-pointer hover:scale-[1.05]"
           to="contact"
           smooth={true}
-          offset={-50}
+          offset={-65}
           duration={500}
         >
           Contact
