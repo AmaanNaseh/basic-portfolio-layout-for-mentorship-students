@@ -14,10 +14,12 @@ const Projects = () => {
   console.log(mediaCount);
 
   return (
-    <div name="projects">
-      <h1 className="text-9xl font-bold text-center my-12">Projects</h1>
-      <div className="flex flex-row flex-wrap items-center justify-center gap-24">
-        <div className="w-[420px] min-h-[515px] flex flex-col items-center gap-4 text-2xl py-10 px-4 bg-black text-white rounded-lg">
+    <div name="projects" className="bg-[#7ED4AD] py-20">
+      <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold text-center pb-8">
+        Projects
+      </h1>
+      <div className="flex flex-col md:flex-row flex-wrap items-center justify-center gap-24">
+        <div className="w-[300px] md:w-[420px] md:min-h-[515px] flex flex-col items-center gap-4 text-xl md:text-2xl py-10 px-4 bg-black text-white rounded-lg">
           {mediaCount === 1 ? (
             <div>
               <video src={projectVideo1} muted autoPlay controls></video>
@@ -64,7 +66,7 @@ const Projects = () => {
             </button>
           </a>
         </div>
-        <div className="w-[420px] min-h-[515px] flex flex-col items-center gap-4 text-2xl  py-10 px-4 bg-black text-white rounded-lg">
+        <div className="w-[300px] md:w-[420px] md:min-h-[515px] flex flex-col items-center gap-4 text-xl md:text-2xl  py-10 px-4 bg-black text-white rounded-lg">
           {mediaCount === 2 ? (
             <div>
               <video src={projectVideo2} muted autoPlay controls></video>
@@ -110,7 +112,7 @@ const Projects = () => {
             </button>
           </a>
         </div>
-        <div className="w-[420px] min-h-[515px] flex flex-col items-center gap-4 text-2xl  py-10 px-4 bg-black text-white rounded-lg">
+        <div className="w-[300px] md:w-[420px] md:min-h-[515px] flex flex-col items-center gap-4 text-xl md:text-2xl  py-10 px-4 bg-black text-white rounded-lg">
           {mediaCount === 3 ? (
             <div>
               <video src={projectVideo3} muted autoPlay controls></video>

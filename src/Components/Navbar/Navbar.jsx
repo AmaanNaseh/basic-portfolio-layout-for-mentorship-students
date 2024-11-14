@@ -14,8 +14,8 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`w-full flex flex-row flex-nowrap px-10 py-1 items-center justify-between fixed top-0 z-20 ${
-        scrollLimit ? "bg-[#C5D3E8]" : ""
+      className={`w-full flex flex-row flex-nowrap px-10 py-2 pb-3 items-center justify-between fixed top-0 z-40 ${
+        scrollLimit ? "bg-[#D3D8EC]" : ""
       }`}
     >
       <div className="text-center">
@@ -26,17 +26,17 @@ const Navbar = () => {
           offset={-25}
           duration={500}
         >
-          <h1 className="text-3xl font-bold italic hover:scale-[1.05]">
+          <h1 className="text-2xl md:text-3xl font-bold italic hover:scale-[1.05]">
             Amaan Naseh
           </h1>
         </Link>
       </div>
       <ul
-        className={`list-none lg:flex lg:flex-row gap-10 text-xl p-4 ${
+        className={`list-none lg:flex lg:flex-row gap-10 font-semibold text-lg md:text-xl p-4 pr-16 ${
           sideNav
-            ? "flex flex-col fixed right-0 top-0 bottom-0 pt-20 bg-inherit transition-all duration-50"
+            ? "flex flex-col fixed z-40 right-0 top-0 bottom-0 pt-20 bg-inherit transition-all duration-50"
             : "hidden"
-        } `}
+        }`}
       >
         <Link
           className="cursor-pointer hover:scale-[1.05]"
@@ -86,7 +86,7 @@ const Navbar = () => {
       </ul>
       <img
         src={menuIcon}
-        className="lg:hidden w-[50px] cursor-pointer z-50"
+        className="lg:hidden w-[35px] cursor-pointer z-40"
         alt="menu icon"
         onClick={() => {
           setSideNav(!sideNav);

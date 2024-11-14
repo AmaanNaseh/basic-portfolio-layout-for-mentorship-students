@@ -5,10 +5,12 @@ import certificate3 from "../../assets/certificate3.png";
 
 const Certifications = () => {
   return (
-    <div name="certifications" className="my-20">
-      <h1 className="text-9xl font-bold text-center my-12">Certifications</h1>
-      <div className="flex flex-row flex-wrap items-center justify-center gap-24">
-        <div className="w-[420px] min-h-[515px] flex flex-col items-center gap-4 text-2xl py-10 px-4 bg-black text-white rounded-lg">
+    <div name="certifications" className="py-20 bg-[#FEEE91]">
+      <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold text-center pb-8">
+        Certifications
+      </h1>
+      <div className="flex flex-col md:flex-row flex-wrap items-center justify-center gap-24">
+        <div className="w-[300px] md:w-[420px] md:min-h-[515px] flex flex-col items-center gap-4 text-xl md:text-2xl py-10 px-4 bg-black text-white rounded-lg">
           <div className="w-full h-auto">
             <img
               className={`w-full z-10 border-[4px]`}
@@ -28,7 +30,7 @@ const Certifications = () => {
             </button>
           </a>
         </div>
-        <div className="w-[420px] min-h-[515px] flex flex-col items-center gap-4 text-2xl  py-10 px-4 bg-black text-white rounded-lg">
+        <div className="w-[300px] md:w-[420px] md:min-h-[515px] flex flex-col items-center gap-4 text-xl md:text-2xl  py-10 px-4 bg-black text-white rounded-lg">
           <div className="w-full h-auto">
             <img
               className={`w-full z-10 border-[4px]`}
@@ -48,7 +50,7 @@ const Certifications = () => {
             </button>
           </a>
         </div>
-        <div className="w-[420px] min-h-[515px] flex flex-col items-center gap-4 text-2xl  py-10 px-4 bg-black text-white rounded-lg">
+        <div className="w-[300px] md:w-[420px] md:min-h-[515px] flex flex-col items-center gap-4 text-xl md:text-2xl  py-10 px-4 bg-black text-white rounded-lg">
           <div className="w-full h-auto">
             <img
               className={`w-full z-10 border-[4px]`}

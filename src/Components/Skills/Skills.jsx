@@ -3,9 +3,11 @@ import SkillSlider from "../SkillSlider/SkillSlider";
 
 const Skills = () => {
   return (
-    <div name="skills" className="py-20 w-full">
-      <h1 className="text-9xl font-bold text-center">Skills</h1>
-      <div className="flex items-center justify-evenly px-20 py-12 gap-20">
+    <div name="skills" className="py-20 w-full bg-[#608BC1]">
+      <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold text-center">
+        Skills
+      </h1>
+      <div className="flex flex-col-reverse lg:flex-row items-center justify-evenly px-20 py-12 gap-20">
         <ul className="flex flex-wrap items-center justify-center gap-8 text-2xl font-semibold">
           <li className="p-2 bg-black text-white rounded-lg w-32 text-center">
             HTML

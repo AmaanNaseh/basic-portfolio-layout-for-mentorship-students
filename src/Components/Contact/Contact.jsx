@@ -27,11 +27,13 @@ const Contact = () => {
   };
 
   return (
-    <div name="contact" className="my-20">
-      <h1 className="text-9xl text-center font-bold my-8">Contact</h1>
+    <div name="contact" className="py-20 bg-[#E4E0E1]">
+      <h1 className="text-5xl md:text-7xl lg:text-9xl text-center font-bold pb-8">
+        Contact
+      </h1>
       <form
         onSubmit={onSubmit}
-        className="flex flex-col items-center justify-center gap-8 text-2xl"
+        className="flex flex-col items-center justify-center gap-8 text-xl md:text-2xl"
       >
         <label className="font-semibold">Enter Name</label>
         <input
@@ -66,7 +68,7 @@ const Contact = () => {
       </form>
       <span>
         <h1
-          className={`my-8 text-center text-xl font-semibold ${
+          className={`my-8 text-center text-lg font-semibold ${
             result === "Message Sent Successfully"
               ? "text-green-600"
               : "text-red-600"

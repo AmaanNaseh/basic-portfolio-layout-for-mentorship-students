@@ -1,11 +1,21 @@
 import React from "react";
+import gmailIcon from "../../assets/Gmail.png";
 import linkedInIcon from "../../assets/Linkedin.png";
 import githubIcon from "../../assets/Github.png";
 import instaIcon from "../../assets/Instagram.png";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-row items-center justify-evenly bg-gradientBlack py-12">
+    <footer className="flex flex-col gap-20 md:flex-row items-center md:justify-evenly bg-gradientBlack py-12">
+      <div className="w-[50px]">
+        <a target="_blank" rel="noreferrer" href="mailto:naseh.amaan@gmail.com">
+          <img
+            className="hover:scale-[1.15] cursor-pointer"
+            src={gmailIcon}
+            alt="gmail"
+          />
+        </a>
+      </div>
       <div className="w-[50px]">
         <a
           target="_blank"

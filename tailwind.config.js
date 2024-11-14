@@ -9,9 +9,11 @@ export default {
       backgroundImage: {
         gradientBlack:
           "linear-gradient(to right, #2A3663 0%, #C5D3E8 50%, #2A3663 100%)",
+        gradientBlackAndWhite:
+          "linear-gradient(to right, #000 0%, #fff 50%, #000 100%)",
       },
       animation: {
-        nameSlider: "nameSlider 6s ease-in infinite",
+        nameSlider: "nameSlider 7s ease-in",
       },
       keyframes: {
         nameSlider: {
