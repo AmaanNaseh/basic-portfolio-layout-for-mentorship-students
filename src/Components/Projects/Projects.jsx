@@ -50,16 +50,15 @@ const Projects = () => {
             </div>
           )}
 
-          <h1>Zomato Clone</h1>
+          <h1>EVSolution</h1>
           <p className="text-[#f2f2f2] text-justify text-xl">
-            It is a static website displaying just the front end of zomato
-            website. It is made for study purpose only, all credits belong to
-            real zomato website.
+            EVSolution is a landing page which showcases features of an electric
+            vehicle from company's perspective.
           </p>
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://zomato-clone-project-devtown.netlify.app/"
+            href="https://ev-solution.netlify.app/"
           >
             <button className="px-8 py-2 text-center bg-white text-black font-bold rounded-lg hover:scale-[1.15]">
               Preview
@@ -96,16 +95,16 @@ const Projects = () => {
               />
             </div>
           )}
-          <h1>Bookmyshow Clone</h1>
+          <h1>Edusity</h1>
           <p className="text-[#f2f2f2] text-justify text-xl">
-            It is a dynamic website having backend APIs integrated with it,
-            along with Razorpay API. It is made for study purpose only, all
-            credits belong to real bookmyshow website.
+            Edusity is a landing page which presents information such as about,
+            programs, campus, and testimonials about a hypothetical educational
+            institution, i.e., Edusity.
           </p>
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://bookmyshow-clone-project-devtown.netlify.app/"
+            href="https://education-sity.netlify.app/"
           >
             <button className="px-8 py-2 text-center bg-white text-black font-bold rounded-lg hover:scale-[1.15]">
               Preview
@@ -142,16 +141,16 @@ const Projects = () => {
               />
             </div>
           )}
-          <h1>Vespera</h1>
+          <h1>VidTube - Youtube Clone</h1>
           <p className="text-[#f2f2f2] text-justify text-xl">
-            Vespera is a tech fest which was organized by AWSCC & IOSCC Clubs of
-            USAR. I have led the web development team to build the Vespera
-            website, showcasing details of the event
+            VidTube is a clone of Youtube . It uses Youtube Data API v2 of
+            Google Cloud to fetch real-time Youtube data. Rights belong to
+            Youtube and Google Cloud.
           </p>
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://vespera-usar.netlify.app/"
+            href="https://vidtube-ytclone.netlify.app/"
           >
             <button className="px-8 py-2 text-center bg-white text-black font-bold rounded-lg hover:scale-[1.15]">
               Preview
