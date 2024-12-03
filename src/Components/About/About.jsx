@@ -1,6 +1,5 @@
 import React from "react";
 import USAR from "../../assets/USAR.jpg";
-import { Link } from "react-router-dom";
 import resumeIcon from "../../assets/ResumeIcon.png";
 
 const About = () => {
@@ -17,11 +16,16 @@ const About = () => {
             src={resumeIcon}
             alt="resume icon"
           />
-          <Link to={"/resume"}>
+          <a
+            href="/resume"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="decoration-none"
+          >
             <button className="px-8 py-2 text-2xl lg:text-3xl rounded-lg bg-white text-black font-semibold hover:scale-[1.15]">
               Resume
             </button>
-          </Link>
+          </a>
         </div>
       </div>
       <div className="md:basis-[60%] p-2 flex flex-col items-center gap-8">
