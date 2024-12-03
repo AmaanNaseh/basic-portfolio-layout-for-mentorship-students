@@ -28,14 +28,14 @@ const Contact = () => {
 
   return (
     <div name="contact" className="py-20 bg-[#E4E0E1]">
-      <h1 className="text-5xl md:text-7xl lg:text-9xl text-center font-bold pb-8">
+      <h1 className="text-5xl md:text-7xl text-center font-bold pb-8">
         Contact
       </h1>
       <form
         onSubmit={onSubmit}
-        className="flex flex-col items-center justify-center gap-8 text-xl md:text-2xl"
+        className="flex flex-col items-center justify-center gap-8 w-fit bg-[#B3C8CF] mx-auto px-20 py-12"
       >
-        <label className="font-semibold">Enter Name</label>
+        <label className="font-semibold text-xl">Enter Name</label>
         <input
           className="border-none outline-none rounded-sm text-center bg-[#fff] p-2"
           type="text"
@@ -43,7 +43,7 @@ const Contact = () => {
           placeholder="your name"
           required
         />
-        <label className="font-semibold">Enter Email</label>
+        <label className="font-semibold text-xl">Enter Email</label>
         <input
           className="border-none outline-none rounded-sm text-center bg-[#fff] p-2"
           type="email"
@@ -51,7 +51,7 @@ const Contact = () => {
           placeholder="your email"
           required
         />
-        <label className="font-semibold">Enter Message</label>
+        <label className="font-semibold text-xl">Enter Message</label>
         <textarea
           className="border-none outline-none rounded-sm resize-none min-w-[305px] bg-[#fff] p-2"
           name="message"
@@ -60,7 +60,7 @@ const Contact = () => {
         ></textarea>
 
         <button
-          className="px-4 py-3 font-semibold bg-black text-white rounded-lg hover:scale-[1.15]"
+          className="px-4 py-3 font-semibold bg-black text-white text-xl rounded-lg hover:scale-[1.15]"
           type="submit"
         >
           Send Message

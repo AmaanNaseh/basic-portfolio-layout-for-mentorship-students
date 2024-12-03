@@ -6,7 +6,7 @@ import certificate3 from "../../assets/certificate3.png";
 const Certifications = () => {
   return (
     <div name="certifications" className="py-20 bg-[#FEEE91]">
-      <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold text-center pb-8">
+      <h1 className="text-5xl md:text-7xl font-bold text-center pb-8">
         Certifications
       </h1>
       <div className="flex flex-col md:flex-row flex-wrap items-center justify-center gap-24">

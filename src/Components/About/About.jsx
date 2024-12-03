@@ -10,9 +10,7 @@ const About = () => {
       className="bg-black text-white px-10 py-12 h-full bg-cover bg-center flex flex-col md:flex-row items-center justify-between"
     >
       <div className="md:basis-[35%] p-2 flex flex-col items-center gap-8">
-        <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold md:mt-[-100px]">
-          About
-        </h1>
+        <h1 className="text-5xl md:text-7xl font-bold md:mt-[-100px]">About</h1>
         <div className="flex items-center justify-center gap-8">
           <img
             className="w-[100px] lg:w-[125px]"

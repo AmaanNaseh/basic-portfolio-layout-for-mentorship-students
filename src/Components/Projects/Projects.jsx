@@ -15,7 +15,7 @@ const Projects = () => {
 
   return (
     <div name="projects" className="bg-[#7ED4AD] py-20">
-      <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold text-center pb-8">
+      <h1 className="text-5xl md:text-7xl font-bold text-center pb-8">
         Projects
       </h1>
       <div className="flex flex-col md:flex-row flex-wrap items-center justify-center gap-24">
